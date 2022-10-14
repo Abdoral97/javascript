@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex003</title>
+    <style>
+        body {
+            background-color: black;
+            color: rgb(0, 255, 55);
+            /*Comentario em CSS*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá Mundo!</h1> <!--Comentario em HTML--> 
+    <p><em>Já me livrei da maldição.</em></p>
+    <script>
+        var n1 = Number(window.prompt ("Digite um número: "))
+        var n2 = Number(window.prompt  ("Digite outro número: "))
+
+        /*O comando prompt irar lançar o dado como uma string, usaremos o comand Number.parseInt (), parseFloat () para converter a string para number, ou Number () para que o JS decida se o dado é inteiro ou real*/
+        
+        var soma = (n1+n2)
+        window.alert (`A soma de  ${n1} + ${n2}  é  ${soma}`)
+    </script>
+    
+</body>
+</html>

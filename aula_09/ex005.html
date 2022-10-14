@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <!--Cabeça HTML-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos DOM</title>
+    <style>
+        body{
+            background-color:rgb(12, 94, 187) ;
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<!--Corpo HTML-->
+<body>
+    
+    <h1 class="ini">Iniciando estudos com <strong>DOM</strong></h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JS</p>
+    <div class="msg">Clique em mim</div>
+     
+    <!--Script JS-->
+    <script>
+        var corpo = window.document.body
+        corpo.style.background= 'black'
+
+        var h = window.document.getElementsByClassName('ini')[0]
+        h.style.color = 'orange'
+
+        var d = window.document.querySelector('div.msg')
+        d.style.color='blue'
+        //querySelector é a forma de representa qualquer elemento no html pelo javascript.
+        //Toda a clase e representada por um (.), e ID e representado por (#), EX: querySelector('div#msg') em ID ou querySelector('div.msg') em clases.
+        
+        
+        
+        document.write(p1.innerHTML)
+
+       
+        
+
+
+
+
+    </script>
+   
+    
+</body>
+</html>
